@@ -1,0 +1,33 @@
+body{
+    background-color: slateblue;
+    text-align: center;
+}
+img{
+    height: 10rem;
+    border: 2px solid yellow;
+    border-radius: 50%;
+    margin: 2rem;
+    display: inline;
+}
+.gamefield{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.gameReactions{
+    text-align: center;
+}
+.bg-red{
+    background-color: red;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-white{
+    background-color: white;
+}
+.btn{
+    margin: 2rem;
+}
