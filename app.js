@@ -86,7 +86,7 @@ function result(){
     else if(userReaction=="scissor" && comReaction=="rock"){
         console.log("You lost. try again...");
         comScore++;
-        loss;
+        loss();
         //gameReset();
     }else if(userReaction=="rock" && comReaction=="scissor"){
         console.log("You won ...!!");
